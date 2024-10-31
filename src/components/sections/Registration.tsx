@@ -18,15 +18,15 @@ function Registration() {
           Secure your spot today and gain hands-on experience, network with industry professionals, and take a step closer to a future in web development. Limited seats available—register now to not miss out!
         </div>
       </div>
-      <div className="flex overflow-hidden flex-wrap gap-8 items-center mt-12 w-full text-2xl font-bold tracking-tighter text-center text-white max-md:mt-10 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-wrap gap-8 items-center mt-12 w-full text-xl font-bold tracking-tighter text-center text-white max-md:mt-10 max-md:max-w-full">
         <button
-          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-6 my-auto max-w-xs rounded-xl border-2 border-red-700 border-solid min-w-[240px] max-md:px-5"
+          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-4 my-auto max-w-[200px] text-center whitespace-nowrap rounded-xl border-2 border-red-700 border-solid min-w-[160px] max-md:px-3 hover:bg-red-700 transition-colors"
           aria-label="Download Delegate Booklet"
         >
           Delegate Booklet
         </button>
         <button
-          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-6 my-auto max-w-xs whitespace-nowrap bg-red-700 rounded-xl min-w-[240px] max-md:px-5"
+          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-4 my-auto max-w-[200px] text-center whitespace-nowrap bg-red-700 border-2 border-red-700 rounded-xl min-w-[160px] max-md:px-3 hover:bg-[#0a0b0c] hover:border-red-700 transition-colors"
           aria-label="Register for WebSpire"
         >
           Register

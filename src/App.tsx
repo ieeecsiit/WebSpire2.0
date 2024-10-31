@@ -11,8 +11,8 @@ import Footer from './components/sections/Footer';
 
 function App() {
   return (
-    <div 
-      data-layername="landingPage" 
+    <div
+      data-layername="landingPage"
       className="flex overflow-hidden flex-col bg-neutral-950"
     >
       <Header />

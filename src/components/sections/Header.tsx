@@ -16,8 +16,8 @@ function Header() {
         <div className="flex overflow-hidden flex-1 shrink gap-2.5 items-start self-stretch my-auto basis-0 min-w-[240px] max-md:max-w-full">
           <Logo />
         </div>
-        <div className="flex overflow-hidden flex-wrap flex-1 shrink justify-center items-center self-stretch my-auto text-xl font-bold tracking-tighter text-white basis-0 min-h-[87px] min-w-[240px] max-md:max-w-full">
-          <div className="flex overflow-hidden flex-wrap flex-1 shrink gap-10 items-center self-stretch my-auto w-full basis-0 min-w-[256px] max-md:max-w-full">
+        <div className="flex overflow-hidden flex-wrap flex-1 shrink justify-center items-center self-stretch my-auto text-xl font-bold tracking-tighter text-white basis-0 min-h-[87px] min-w-[240px] max-md:max-w-ful">
+          <div className="flex overflow-hidden flex-wrap flex-1 shrink gap-10 items-center self-stretch my-auto w-full basis-0 min-w-[256px] max-md:max-w-full justify-end">
             {navigationItems.map((item, index) => (
               <NavigationLink key={index} href={item.href} label={item.label} />
             ))}

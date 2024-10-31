@@ -9,7 +9,7 @@ interface TimelineCardProps {
 const TimelineCard: React.FC<TimelineCardProps> = ({ number, title, description }) => {
   return (
     <div className="flex overflow-hidden flex-wrap gap-3 items-center w-full rounded-3xl min-w-[400px] max-md:max-w-full">
-      <div className="flex overflow-hidden flex-col justify-center items-center self-stretch my-auto text-3xl font-bold tracking-tighter text-center whitespace-nowrap min-h-[165px] text-neutral-950 w-[82px]">
+      <div className="flex overflow-hidden flex-col justify-center items-center self-stretch text-3xl font-bold tracking-tighter text-center whitespace-nowrap min-h-[165px] text-neutral-950 w-[82px]">
       <div className="flex flex-1 w-0.5 bg-red-700 min-h-[42px]" />
       <div className="flex items-center justify-center overflow-hidden px-8 bg-red-700 h-[82px] rounded-[60px] w-[82px] max-md:px-5">
         {number}
