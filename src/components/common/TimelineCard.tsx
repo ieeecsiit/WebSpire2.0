@@ -21,7 +21,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ number, title, description 
           <h3 className="text-2xl font-black tracking-tighter max-md:max-w-full">
             {title}
           </h3>
-          <p className="mt-3 text-large tracking-tighter max-md:max-w-full">
+          <p className="mt-3 text-xl tracking-tighter max-md:max-w-full">
             {description}
           </p>
         </div>

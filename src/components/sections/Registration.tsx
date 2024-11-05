@@ -20,13 +20,13 @@ function Registration() {
       </div>
       <div className="flex overflow-hidden flex-wrap gap-8 items-center mt-12 w-full text-xl font-bold tracking-tighter text-center text-white max-md:mt-10 max-md:max-w-full">
         <button
-          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-4 my-auto max-w-[200px] text-center whitespace-nowrap rounded-xl border-2 border-red-700 border-solid min-w-[160px] max-md:px-3 hover:bg-red-700 transition-colors"
+          className="overflow-hidden gap-2.5 self-stretch px-12 p-3 my-auto text-center whitespace-nowrap bg-red-700 border-2 border-red-700 rounded-xl min-w-[160px] max-md:px-3 hover:bg-[#cc1a1a] transition-colors"
           aria-label="Download Delegate Booklet"
         >
           Delegate Booklet
         </button>
         <button
-          className="overflow-hidden flex-1 shrink gap-2.5 self-stretch p-4 my-auto max-w-[200px] text-center whitespace-nowrap bg-red-700 border-2 border-red-700 rounded-xl min-w-[160px] max-md:px-3 hover:bg-[#0a0b0c] hover:border-red-700 transition-colors"
+          className="overflow-hidden gap-2.5 self-stretch px-12 p-3 my-auto text-center whitespace-nowrap rounded-xl border-2 border-red-700 border-solid min-w-[160px] max-md:px-3 hover:bg-[#cc1a1a] transition-colors"
           aria-label="Register for WebSpire"
         >
           Register
