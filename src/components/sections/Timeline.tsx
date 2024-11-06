@@ -4,22 +4,26 @@ import TimelineCard from '../common/TimelineCard';
 const timelineData = [
   {
     number: 1,
-    title: "Workshop 01",
+    date: "23th January - Workshop 01",
+    title: "Building Blocks of the Web",
     description: "Mastering HTML and CSS for building foundational web structures"
   },
   {
     number: 2,
-    title: "Workshop 02",
+    date: "25th January - Workshop 02",
+    title: "Designing for Humans",
     description: "UI/UX design principles and essential tools for crafting user-friendly interfaces"
   },
   {
     number: 3,
-    title: "Workshop 03",
+    date: "03rd February - Workshop 03",
+    title: "JavaScript and Frameworks",
     description: "JavaScript and React.js, emphasizing interactive and dynamic web applications"
   },
   {
     number: 4,
-    title: "Exclusive Content",
+    date: "10th February - Exclusive",
+    title: "Industry Visit",
     description: "Offers top participants a networking opportunity with industry professionals to gain valuable career insights"
   }
 ];
@@ -40,6 +44,7 @@ function Timeline() {
           <TimelineCard
             key={index}
             number={item.number}
+            date={item.date}
             title={item.title}
             description={item.description}
           />

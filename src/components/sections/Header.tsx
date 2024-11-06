@@ -11,7 +11,7 @@ const navigationItems = [
 
 function Header() {
   return (
-    <header className="flex overflow-hidden flex-col justify-center px-16 py-6 w-full bg-neutral-950 max-md:px-5 max-md:max-w-full">
+    <header className="flex overflow-hidden flex-col justify-center px-12 py-6 w-full bg-neutral-950 max-md:px-5 max-md:max-w-full">
       <nav className="flex overflow-hidden flex-wrap gap-6 justify-center items-center w-full min-w-[420px] max-md:max-w-full">
         <div className="flex overflow-hidden flex-1 shrink gap-2.5 items-start self-stretch my-auto basis-0 min-w-[240px] max-md:max-w-full">
           <Logo />

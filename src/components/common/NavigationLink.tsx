@@ -9,7 +9,7 @@ const NavigationLink: React.FC<NavigationLinkProps> = ({ href, label }) => {
   return (
     <a 
       href={href}
-      className="self-stretch my-auto hover:text-red-700 transition-colors duration-300"
+      className="self-stretch my-auto hover:text-[#cc1a1a] transition-colors"
     >
       {label}
     </a>

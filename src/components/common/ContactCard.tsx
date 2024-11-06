@@ -14,15 +14,15 @@ const ContactCard: React.FC<ContactCardProps> = ({ name, role, phone, email }) =
         <h3 className="text-3xl font-bold tracking-tighter text-white max-md:max-w-full">
           {name}
         </h3>
-        <div className="mt-1 text-xl tracking-tighter text-red-700 max-md:max-w-full">
+        <div className="text-xl tracking-tighter text-red-700 max-md:max-w-full">
           {role}
         </div>
       </div>
-      <div className="flex flex-col items-start pr-20 mt-1 w-full text-xl tracking-tighter text-white rounded-none max-md:pr-5 max-md:max-w-full">
+      <div className="flex flex-col items-start pr-20 w-full text-xl tracking-tighter text-white rounded-none max-md:pr-5 max-md:max-w-full">
         <a href={`tel:${phone}`} className="hover:text-red-700 transition-colors duration-300">
           {phone}
         </a>
-        <a href={`mailto:${email}`} className="mt-1 hover:text-red-700 transition-colors duration-300">
+        <a href={`mailto:${email}`} className="hover:text-red-700 transition-colors duration-300">
           {email}
         </a>
       </div>
