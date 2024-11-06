@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageCarousel from '../common/ImageCarousel';
 
 function MemoryLane() {
   return (
@@ -14,7 +15,7 @@ function MemoryLane() {
         </div>
       </div>
       <div className="flex overflow-hidden flex-wrap gap-1 justify-center items-start mt-12 w-full max-md:mt-10 max-md:max-w-full">
-        <div className="flex flex-1 shrink w-full rounded-xl basis-0 bg-neutral-800 min-h-[575px] min-w-[240px] max-md:max-w-full" />
+        <ImageCarousel />
       </div>
     </section>
   );
