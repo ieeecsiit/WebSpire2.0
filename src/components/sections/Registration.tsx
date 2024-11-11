@@ -18,15 +18,15 @@ function Registration() {
           Secure your spot today and gain hands-on experience, network with industry professionals, and take a step closer to a future in web development. Limited seats available—register now to not miss out!
         </div>
       </div>
-      <div className="flex overflow-hidden flex-wrap gap-8 items-center mt-12 w-full text-xl font-bold tracking-tighter text-center text-white max-md:mt-10 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-wrap gap-8 max-md:gap-4 items-center mt-12 w-full text-xl font-bold tracking-tighter text-center text-white max-md:mt-10 max-md:max-w-full">
         <button
-          className="overflow-hidden gap-2.5 self-stretch px-12 p-3 my-auto text-center whitespace-nowrap bg-red-700 border-2 border-red-700 rounded-xl min-w-[160px] max-md:px-3 hover:bg-[#cc1a1a] transition-colors"
+          className="overflow-hidden gap-2.5 self-stretch px-12 py-3 my-auto text-center whitespace-nowrap bg-red-700 border-2 border-red-700 rounded-xl max-md:rounded-lg min-w-[160px] max-md:px-3 max-md:py-2 max-md:min-w-[100px] max-md:text-xs hover:bg-[#cc1a1a] transition-colors"
           aria-label="Download Delegate Booklet"
         >
           Delegate Booklet
         </button>
         <button
-          className="overflow-hidden gap-2.5 self-stretch px-12 p-3 my-auto text-center whitespace-nowrap rounded-xl border-2 border-red-700 border-solid min-w-[160px] max-md:px-3 hover:bg-[#cc1a1a] transition-colors"
+          className="overflow-hidden gap-2.5 self-stretch px-12 py-3 my-auto text-center whitespace-nowrap border-2 border-red-700 rounded-xl max-md:rounded-lg min-w-[160px] max-md:px-3 max-md:py-2 max-md:min-w-[100px] max-md:text-xs hover:bg-[#cc1a1a] transition-colors"
           aria-label="Register for WebSpire"
         >
           Register
