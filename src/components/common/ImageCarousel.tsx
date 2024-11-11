@@ -25,7 +25,7 @@ const ImageCarousel = () => {
         {images.map((src, index) => (
           <div
             key={index}
-            className="flex-shrink-0 min-w-[240px] w-[32rem] sm:w-[24rem] aspect-w-16 aspect-h-9 rounded-xl bg-neutral-800 overflow-hidden"
+            className="flex-shrink-0 min-w-[240px] w-[32rem] aspect-w-16 aspect-h-9 rounded-xl bg-neutral-800 overflow-hidden max-md:w-[20rem]"
           >
             <img src={src} alt={`carousel ${index}`} className="w-full h-full object-cover" />
           </div>
