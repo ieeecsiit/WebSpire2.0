@@ -19,7 +19,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ number, date, title, descri
     </div>
       <div className="flex overflow-hidden flex-col flex-1 shrink justify-center self-stretch py-1.5 text-white basis-0 min-w-[240px] max-md:max-w-full">
         <div className="flex overflow-hidden flex-col justify-center p-8 w-full rounded-3xl bg-neutral-800 max-md:px-5 max-md:max-w-full">
-          <p className="text-l tracking-tighter max-md:max-w-full text-red-700">
+          <p className="text-lg tracking-tighter max-md:max-w-full text-red-700">
             {date}
           </p>
           <h3 className="text-2xl font-black tracking-tighter max-md:max-w-full">

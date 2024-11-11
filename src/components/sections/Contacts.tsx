@@ -10,7 +10,7 @@ const contactData = [
   },
   {
     name: "Mayuran Thanushan",
-    role: "Project Vice-chairperson",
+    role: "Project Vice-Chairperson",
     phone: "+94 72 375 5252",
     email: "mayuran.20231047@iit.ac.lk"
   }

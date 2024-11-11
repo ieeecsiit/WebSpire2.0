@@ -21,11 +21,11 @@ const images = [
 const ImageCarousel = () => {
   return (
     <div className="relative overflow-hidden w-full">
-      <div className="scroller flex gap-4 py-4 w-max animate-scroll hover:[animation-play-state:paused]">
+      <div className="scroller flex gap-4 py-4 w-max animate-scroll">
         {images.map((src, index) => (
           <div
             key={index}
-            className="flex-shrink-0 min-w-[240px] w-[32rem] aspect-w-16 aspect-h-9 rounded-xl bg-neutral-800 overflow-hidden"
+            className="flex-shrink-0 min-w-[240px] w-[32rem] sm:w-[24rem] aspect-w-16 aspect-h-9 rounded-xl bg-neutral-800 overflow-hidden"
           >
             <img src={src} alt={`carousel ${index}`} className="w-full h-full object-cover" />
           </div>

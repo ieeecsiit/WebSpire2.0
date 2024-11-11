@@ -8,12 +8,7 @@ const techIcons = [
 function Footer() {
   return (
     <footer className="flex overflow-hidden flex-col justify-center px-32 py-14 w-full text-xl tracking-tighter bg-neutral-950 min-h-[358px] max-md:px-5 max-md:max-w-full">
-      <img 
-        loading="lazy" 
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/58f536eeb63bff187c0dc9e35aed142aeee5b69a7a32b542e0f89b2805fd7f62?placeholderIfAbsent=true&apiKey=0a18f12c55274af68e0a3ae651c1ff6d" 
-        alt="Footer decoration" 
-        className="object-contain max-w-full w-[1680px]" 
-      />
+      <hr className="border-t border-gray-300 w-full max-w-[1680px]" />
       <div className="flex overflow-hidden flex-wrap gap-6 items-start mt-12 w-full h-[126px] min-w-[420px] max-md:mt-10 max-md:max-w-full">
         <div className="flex overflow-hidden flex-col flex-1 shrink text-white basis-0 min-h-[261px] min-w-[240px] max-md:max-w-full">
           <img 
@@ -45,8 +40,10 @@ function Footer() {
               </a>
             ))}
           </div>
-          <div className="mt-6 text-red-700">
-            ieeecs@iit.ac.lk
+          <div className="mt-2 mr-1 text-red-700"> 
+            <a href='mailto:ieeecs@iit.ac.lk'>
+              ieeecs@iit.ac.lk
+            </a>
           </div>
         </div>
       </div>

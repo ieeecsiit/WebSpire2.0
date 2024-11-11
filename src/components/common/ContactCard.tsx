@@ -19,10 +19,10 @@ const ContactCard: React.FC<ContactCardProps> = ({ name, role, phone, email }) =
         </div>
       </div>
       <div className="flex flex-col items-start pr-20 w-full text-xl tracking-tighter text-white rounded-none max-md:pr-5 max-md:max-w-full">
-        <a href={`tel:${phone}`} className="hover:text-red-700 transition-colors duration-300">
+        <a href={`tel:${phone}`} className="hover:text-red-700 transition-colors">
           {phone}
         </a>
-        <a href={`mailto:${email}`} className="hover:text-red-700 transition-colors duration-300">
+        <a href={`mailto:${email}`} className="hover:text-red-700 transition-colors">
           {email}
         </a>
       </div>
