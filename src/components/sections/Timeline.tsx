@@ -30,16 +30,16 @@ const timelineData = [
 
 function Timeline() {
   return (
-    <section id="timeline" className="flex overflow-hidden flex-wrap gap-12 content-start items-start px-32 py-16 w-full bg-neutral-950 max-md:px-5 max-md:max-w-full">
-      <div className="flex overflow-hidden flex-col flex-1 shrink pt-10 basis-0 max-w-[641px] min-w-[320px] max-md:max-w-full">
-        <h2 className="text-6xl font-black tracking-tighter text-red-700 max-md:max-w-full max-md:text-4xl">
+    <section id="timeline" className="flex overflow-hidden flex-wrap gap-12 content-start items-start px-32 py-16 w-full bg-neutral-950 max-md:px-5">
+      <div className="flex overflow-hidden flex-col flex-1 shrink pt-10 basis-0 lg:max-w-[40%] min-w-[280px] max-md:max-w-full">
+        <h2 className="text-6xl font-black tracking-tighter text-red-700 max-md:text-4xl">
           Timeline
         </h2>
-        <p className="mt-3 text-xl tracking-tighter text-white max-md:max-w-full">
+        <p className="mt-3 text-xl tracking-tighter text-white">
           The workshop series will span 3-4 weeks, with sessions scheduled weekly to provide ample time for hands-on practice and skill development.
         </p>
       </div>
-      <div className="flex overflow-hidden flex-col flex-1 shrink basis-0 min-w-[320px] max-md:max-w-full">
+      <div className="flex flex-wrap flex-1 shrink basis-0 justify-start w-full max-lg:w-full">
         {timelineData.map((item, index) => (
           <TimelineCard
             key={index}
