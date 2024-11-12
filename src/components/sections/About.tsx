@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <section 
-      id="about" className="flex overflow-hidden gap-10 items-start px-32 py-16 w-full bg-neutral-950 max-md:px-5 max-lg:flex-col max-md:pt-0">
+      id="about" className="flex overflow-hidden gap-10 max-md:gap-6 items-start px-32 py-16 w-full bg-neutral-950 max-md:px-5 max-lg:flex-col max-md:pt-0">
       <div className="overflow-hidden flex-1 shrink pt-10 text-6xl font-black tracking-tighter text-red-700 max-w-[641px] min-w-[360px] max-sm:min-w-full max-md:text-4xl max-lg:order-1">
         <span className="inline-block whitespace-nowrap">About</span> <span className="inline-block whitespace-nowrap">WebSpire 2.0</span>
       </div>

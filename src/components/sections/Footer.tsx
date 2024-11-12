@@ -29,7 +29,7 @@ function Footer() {
         </div>
         
         {/* Social Media Icons Section */}
-        <div className="flex flex-col items-center text-right text-red-700 whitespace-nowrap basis-0 min-w-[240px] max-md:max-w-full max-md:text-center max-lg:mt-4">
+        <div className="flex flex-col items-end max-lg:items-center text-right text-red-700 whitespace-nowrap basis-0 min-w-[240px] max-md:max-w-full max-md:text-center max-lg:mt-4">
           <div className="flex gap-4 justify-center">
             {techIcons.map((icon, index) => (
               <a
@@ -59,7 +59,7 @@ function Footer() {
       {/* Copyright Section */}
       <div className="flex gap-6 items-center mt-12 w-full text-center text-white min-w-full max-md:mt-10 max-md:max-w-full max-md:text-center">
         <div className="flex flex-wrap flex-1 shrink gap-6 items-center w-full basis-0 min-w-[240px] max-md:max-w-full">
-          <div className="overflow-hidden flex-1 shrink gap-1 self-stretch my-auto w-full min-w-[256px] max-md:max-w-full max-md:text-sm opacity-60">
+          <div className="overflow-hidden flex-1 shrink gap-1 self-stretch my-auto w-full min-w-[256px] max-md:max-w-full text-base max-md:text-sm opacity-60">
             Copyright 2024
           </div>
         </div>

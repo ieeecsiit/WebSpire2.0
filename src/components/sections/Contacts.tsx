@@ -23,7 +23,7 @@ function Contact() {
         <h2 className="overflow-hidden flex-1 shrink gap-2.5 w-full text-6xl font-black tracking-tighter text-red-700 max-md:max-w-full max-md:text-4xl">
           Contact Us
         </h2>
-        <div className="flex overflow-hidden flex-wrap gap-6 items-start pt-12 mt-6 w-full max-md:max-w-full">
+        <div className="flex overflow-hidden flex-wrap gap-6 items-start pt-12 max-md:pt-0 mt-6 w-full max-md:max-w-full">
           {contactData.map((contact, index) => (
             <ContactCard key={index} {...contact} />
           ))}
