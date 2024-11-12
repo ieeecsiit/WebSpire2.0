@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WebSpire2.0/static/css/main.9b340d5d.css",
+    "main.js": "/WebSpire2.0/static/js/main.cf57f464.js",
+    "static/js/453.02f75d5e.chunk.js": "/WebSpire2.0/static/js/453.02f75d5e.chunk.js",
+    "index.html": "/WebSpire2.0/index.html",
+    "main.9b340d5d.css.map": "/WebSpire2.0/static/css/main.9b340d5d.css.map",
+    "main.cf57f464.js.map": "/WebSpire2.0/static/js/main.cf57f464.js.map",
+    "453.02f75d5e.chunk.js.map": "/WebSpire2.0/static/js/453.02f75d5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b340d5d.css",
+    "static/js/main.cf57f464.js"
+  ]
+}
